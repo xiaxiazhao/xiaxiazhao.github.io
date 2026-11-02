@@ -16,3 +16,4 @@
 .creative-track::-webkit-scrollbar-thumb{background:#99aa9c;border:2px solid #e8ede7;border-radius:20px;min-width:48px}
 .creative-track::-webkit-scrollbar-thumb:hover{background:#6e8674}
 @media(max-width:600px){.creative-track::-webkit-scrollbar{height:10px}}
+[data-page="skills"]>.page-heading{margin-bottom:24px}@media(max-width:600px){[data-page="skills"]>.page-heading{margin-bottom:18px}}
