@@ -9,3 +9,10 @@
 
 .carousel-shell{position:relative;overflow:visible;padding:0 48px}.carousel-controls #creative-prev,.carousel-controls #creative-next{position:absolute;top:30%;z-index:2;width:40px;height:48px;min-width:40px;border-radius:24px;background:rgba(255,255,253,.9);box-shadow:0 3px 14px #293b3310}.carousel-controls #creative-prev{left:0}.carousel-controls #creative-next{right:0}.carousel-controls{justify-content:flex-start}
 @media(max-width:600px){.carousel-shell{padding:0 26px}.carousel-controls #creative-prev,.carousel-controls #creative-next{width:30px;min-width:30px;height:40px}.carousel-controls #creative-prev{left:-8px}.carousel-controls #creative-next{right:-8px}}
+/* Drag the scrollbar to browse the full portfolio directly. */
+.creative-track{scrollbar-width:auto;scrollbar-color:#99aa9c #e8ede7;scroll-snap-type:x proximity;padding-bottom:22px}
+.creative-track::-webkit-scrollbar{display:block;height:12px}
+.creative-track::-webkit-scrollbar-track{background:#e8ede7;border-radius:20px}
+.creative-track::-webkit-scrollbar-thumb{background:#99aa9c;border:2px solid #e8ede7;border-radius:20px;min-width:48px}
+.creative-track::-webkit-scrollbar-thumb:hover{background:#6e8674}
+@media(max-width:600px){.creative-track::-webkit-scrollbar{height:10px}}
